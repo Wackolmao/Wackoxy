@@ -29,18 +29,18 @@ For just 4$ USD per month!
 (Exchange Rates apply)
 ### Local Deployment
 ```
-git clone https://github.com/Wackolmao/Wackoxy
-sudo apt update
-sudo apt install nodejs npm -y
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-nvm install node
-nvm use 18.18.0
-cd doge-unblocker
-npm install
-screen #press space
-npm start #Then do the key combination ctrl+a+d
+git clone https://github.com/Wackolmao/Wackoxy                 # Clone the Wackoxy repository
+sudo apt update                                               # Update the package list
+sudo apt install nodejs npm screen -y                         # Install nodejs, npm, and screen
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash   # Install nvm
+export NVM_DIR="$HOME/.nvm"                                   # Set NVM directory
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"               # Load nvm
+nvm install node                                              # Install the latest version of node using nvm
+nvm use 18.18.0                                               # Use node version 18.18.0 (assuming this version exists)
+cd doge-unblocker                                             # Change to the doge-unblocker directory
+npm install                                                   # Install node modules from package.json
+screen                                                        # Start a screen session (user should press space to continue)
+npm start                                                     # Start the npm script (user will then use Ctrl+a+d to detach from screen)
 ```
 ### The Links
 [Click Here](https://proxy.theggbofficial.org)
