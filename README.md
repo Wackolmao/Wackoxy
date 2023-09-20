@@ -39,7 +39,8 @@ nvm install node
 nvm use 18.18.0
 cd doge-unblocker
 npm install
-npm start
+screen #press space
+npm start #Then do the key combination ctrl+a+d
 ```
 ### The Links
 [Click Here](https://proxy.theggbofficial.org)
