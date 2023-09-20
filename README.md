@@ -16,16 +16,16 @@ Our web proxy supports almost every site. Some popular working sites include:
 - [YouTube](https://youtube.com)
 - [CrazyGames](https://crazygames.com)
 
-## Link Hosting
+### Link Hosting
 Hosting we use is [Xentain Solutions Cheap Hosting Budget VPS!](https://billing.xentainsolutions.com/aff.php?aff=22)
-The VPS Budget Plan I prefer to use is the Budget-4 Plan
-It has:
-Intel Xeon CPU
-4 GB RAM
-65 GB Storage
-2 vCore
-Unmetered Bandwidth
-For just 4$ USD per month!
+##The VPS Budget Plan I prefer to use is the Budget-4 Plan
+#It has:
+#Intel Xeon CPU
+#4 GB RAM
+#65 GB Storage
+#2 vCore
+#Unmetered Bandwidth
+#For just 4$ USD per month!
 (Exchange Rates apply)
 ### Local Deployment
 ```
@@ -42,6 +42,13 @@ npm install                                                   # Install node mod
 screen                                                        # Start a screen session (user should press space to continue)
 npm start                                                     # Start the npm script (user will then use Ctrl+a+d to detach from screen)
 ```
+### To set it up in docker(hope you cloned the repository already)
+```
+sudo apt install docker.io docker-compose -y
+cd proxy
+docker build -t wackoxy-image .
+docker run -p 8080:8080 wackoxy-image
+``` 
 ### The Links
 [Click Here](https://proxy.theggbofficial.org)
 ### This isn't my own creation this is just taken and lightly modified from
