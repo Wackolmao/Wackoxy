@@ -1,8 +1,8 @@
 <div align='center'>
   
 ![Alt](static/assets/img/doge.jpg)
-# Doge Unblocker
-Welcome to the official repository of Doge Unblocker, the web proxy designed exclusively for students. We take immense pride in providing you with an unparalleled proxy service that is unrivaled in speed, security, and reliability.
+# GGB  Unblocker
+Welcome to the official repository of GGB Unblocker, the web proxy designed exclusively for students. We take immense pride in providing you with an unparalleled proxy service that is unrivaled in speed, security, and reliability.
 </div>
 
 ## Supported Sites
@@ -15,30 +15,33 @@ Our web proxy supports almost every site. Some popular working sites include:
 - [TikTok](https://tiktok.com)
 - [YouTube](https://youtube.com)
 - [CrazyGames](https://crazygames.com)
-- [Visual Studio Code](https://vscode.dev)
-
-## Analytics
-You can view our changelog [here.](CHANGELOG.md)
-
-![Alt](https://repobeats.axiom.co/api/embed/cd46b2adf8ad19db6d9d555dfe9c81de616a5a80.svg "Repobeats analytics image")
 
 ## Link Hosting
+Hosting we use is [Xentain Solutions Cheap Hosting Budget VPS!](https://billing.xentainsolutions.com/aff.php?aff=22)
+The VPS Budget Plan I prefer to use is the Budget-4 Plan
+It has:
+Intel Xeon CPU
+4 GB RAM
+65 GB Storage
+2 vCore
+Unmetered Bandwidth
+For just 4$ USD per month!
+(Exchange Rates apply)
 ### Local Deployment
 ```
-git clone https://github.com/dogenetwork/doge-unblocker
+git clone https://github.com/Wackolmao/Wackoxy
+sudo apt update
+sudo apt install nodejs npm -y
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+nvm install node
+nvm use 18.18.0
 cd doge-unblocker
 npm install
 npm start
 ```
-### Web Deployment
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/h7StcI?referralCode=u82tqg)
-<a href="https://render.com/deploy?repo=https://github.com/dogenetwork/doge-unblocker">
-<img src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/main/buttons/remade/render.svg"></img></a>
-<a href="https://app.cyclic.sh/api/app/deploy/dogeproxy/doge-unblocker">
-<img src="https://camo.githubusercontent.com/607221ca4be547dd929fca7c997a93dfaf1f7b06a1baacaf25b44cf5405c9f91/68747470733a2f2f62696e6261736862616e616e612e6769746875622e696f2f6465706c6f792d627574746f6e732f627574746f6e732f72656d6164652f6379636c69632e737667"></img></a>
-<br>
-#### Join our <a href="https://discord.gg/sWPHCdxCPU">Discord</a> for more ways to deploy (and also for more proxy links.)
-[![Join us on Discord](https://invidget.switchblade.xyz/sWPHCdxCPU?theme=dark)](https://discord.gg/sWPHCdxCPU)
-
-
-
+### The Links
+[Click Here](https://proxy.theggbofficial.org)
+# Wackoxy
+# Wackoxy
