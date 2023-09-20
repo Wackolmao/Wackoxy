@@ -44,5 +44,5 @@ npm start                                                     # Start the npm sc
 ```
 ### The Links
 [Click Here](https://proxy.theggbofficial.org)
-# Wackoxy
-# Wackoxy
+### This isn't my own creation this is just taken and lightly modified from
+[DogeUnblocker](https://github.com/DogeNetwork/dogeunblocker)
